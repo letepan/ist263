@@ -1,1 +1,11 @@
-selecto{ body, Verdana}
+p {color: black;
+    /* This is font size by % - 3 times default size
+    font-size: 300%; */
+    font-size: 1.2em ; /* 50% bigger than default */
+    font-family:  Georgia, Times New Roman, serif, 'Geneva', sans-serif;
+}
+
+.aquatext {color: aquamarine;}
+.bluetext {color: cadetblue;}
+.skytext {color:lightskyblue; }
+.evenrow {color:lightsteelblue}
