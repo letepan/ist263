@@ -20,11 +20,6 @@ nav a {
     color: #E96479;
 }
 
-input a {
-    color: #4D455D;
-}
-
-
 nav a:hover {
     background-color:#CBE4DE;
 }
