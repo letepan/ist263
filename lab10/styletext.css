@@ -1,36 +1,19 @@
 a, body, p, li {
-  
     font-family: 'Work Sans', sans-serif
 }
-body {
-    background-color: #F5E9CF;
-}
+body {background-color: #F5E9CF;}
 
-a, p {
-    color: #4D455D;
-}
-a:hover { 
-    color: #0E8388;
-}
-li { 
-    color: #4D455D;
-}
-
-nav a {
-    color: #E96479;
-}
-
-nav a:hover {
-    background-color:#CBE4DE;
-}
-
-nav {
+a, p {color: #4D455D;}
+a:hover { color: #0E8388;}
+li { color: #4D455D;}
+nav a {  color: #E96479;}
+nav a:hover {background-color:#CBE4DE;}nav {
    background-color: #4D455D; border-radius: .5em;
    padding: 10px;
-   margin-bottom:30px
-}
+   margin-bottom:30px}
+
 .evenrow {background-color:lightskyblue} 
 
 @media only screen and (max-width: 600px)
-    {a {display:block;}}
-
+    {a {display:block; padding: 10px}
+    span {display: none;} }
