@@ -15,5 +15,5 @@ nav a:hover {background-color:#CBE4DE;}nav {
 .evenrow {background-color:lightskyblue} 
 
 @media only screen and (max-width: 600px)
-    {a {display:block; padding: 10px}
+    {a {display:block; padding: 6px}
     span {display: none;} }
