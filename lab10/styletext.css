@@ -25,6 +25,7 @@ nav a:hover {
 }
 
 nav {
+   background-color: #4D455D; border-radius: .5em;
    padding: 10px;
    margin-bottom:30px
 }
