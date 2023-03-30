@@ -30,3 +30,6 @@ nav {
 }
 .evenrow {background-color:lightskyblue} 
 
+@media only screen and (min-width: 768px)
+    {a {display:block;}}
+
