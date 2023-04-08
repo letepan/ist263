@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A11y</title>
+    <style>
+        .skip {
+            background-color: #ffbf00;
+            padding: 5px;
+            border: 1px solid #000000;
+            text-decoration: none;
+            position: absolute; /* position element relative to top left of viewpoint */ 
+            top: 10px;
+            left: -999px; /* push it off the left side */
+        }
+        .skip:focus {
+            left:10px; /* bring it back when they tab to it */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="#main" class="skip" tabindex="1"> Skip to Content</a><br>  <!-- bookmark links jump you around the page -->
+        <a href="https://www.syr.edu" tabindex="3"> Syracuse University</a><br>
+        <a href="https://ischool.syr.edu" tabindex="2"> iSchool</a><br>
+        <a href="https://soe.syr.edu" tabindex="1"> School of Education</a>
+    </div>
+    <section>
+        <h1> Main Content Area</h1>
+        <p id = "main"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. At fugiat dolorum amet esse ab veritatis nemo quisquam sapiente rem voluptatibus? Sequi blanditiis exercitationem aliquid magni delectus illum ad ut quam.</p>
+    </section>
+</body>
+</html>
