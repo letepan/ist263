@@ -6,13 +6,13 @@ body {background-color: #F5E9CF;}
 a, p {color: #4D455D;}
 a:hover { color: #0E8388;}
 li { color: #4D455D;}
-nav a {  color: #E96479;}
+nav a {  color: #f7ecee;}
 nav a:hover {background-color:#CBE4DE;}nav {
    background-color: #4D455D; border-radius: .5em;
    padding: 10px;
    margin-bottom:30px}
 
-.evenrow {background-color:lightskyblue} 
+.evenrow {background-color:rgb(81, 82, 84)} 
 
 @media only screen and (max-width: 600px)
     {a {display:block; padding: 6px}
