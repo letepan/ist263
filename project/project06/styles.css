@@ -1,0 +1,12 @@
+a, body, p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+header { 
+    background-color: #BFCCB5 
+}
+
+
+@media only screen and (max-width: 600px)
+    {a {display:block; padding: 6px}
+    span {display: none;} }
