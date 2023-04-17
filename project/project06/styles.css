@@ -18,8 +18,8 @@ h1 {
     padding-left: 20px;
 }
 header h1 {
-    background-color: #DF7857;
-    color: #f5eeee;
+    background-color: #afd1e5;
+    color: black;
     border-radius: 3px;
     padding-bottom: 15px;
     margin:15px
@@ -27,14 +27,14 @@ header h1 {
 
     nav {
         display: flex;
-        background-color: #DF7857;
+        background-color: #afd1e5;
         justify-content: space-around;
         border-radius: 3px;
       }
       
       .topnav a {
         display: block;
-        color: #f5eeee;
+        color: black;
         text-align: center;
         padding: 12px 14px;
         font-size: 16px;
@@ -61,19 +61,25 @@ header h1 {
 .flexbox2 {
     display:flex;
 }
-img.myimage {
-    height: 10%;
-    width: 30%;
-}
-img.view{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 30%;
-    width: 50%;
-}
+
 .flexbox article {
     margin: 20px;
+}
+.flexbox p {
+    background-color: #f9b29a;
+    border-radius: 4px;
+    padding:15px;
+
+}
+.list {
+    background-color: #f9b29a;
+    text-align:auto;
+    width: 40%;
+    margin: 0 auto; 
+    border-radius: 4px;
+    padding:30px;
+    line-height: 1.4;
+
 }
 @media only screen and (max-width: 600px)
     {a {display:block; padding: 4px}
@@ -83,13 +89,36 @@ img.view{
 .flexbox2 article {
     margin: 20px;
 }
+.flexbox2 p{
+    background-color: #f9b29a;
+    border-radius: 4px;
+    padding:5px;
+
+}
 .mybox {
     padding-top: 10px;
     padding-bottom:10px;
     padding-left: 10px;
     padding-right: 10px;
 }
-
 .box1, .box2 {
     flex:1;
 }
+.skip {
+    background-color:#EDE9D5;
+    padding: 5px;
+    position: absolute;
+    top: 185px;
+ }
+ .skip:focus {
+        left:10px;
+ }
+ .flexbox3{
+    display:flex;
+    margin-left:50px;
+ }
+ .column {
+    flex: 33.33%;
+    padding:0px;
+ }
+ 
