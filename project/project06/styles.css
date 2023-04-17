@@ -1,11 +1,95 @@
 a, body, p {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
 }
 
-p { 
-    background-color: #BFCCB5;}
+body { 
+    background-color: #EDE9D5;
+    border-radius: 4px;
+}
+article h2  {
+    background-color: #EDE9D5;
+    border-radius: 3px;
+}
 
+h1 {
+    font-size: 300%;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+header h1 {
+    background-color: #DF7857;
+    color: #f5eeee;
+    border-radius: 3px;
+    padding-bottom: 15px;
+    margin:15px
+}
 
+    nav {
+        display: flex;
+        background-color: #DF7857;
+        justify-content: space-around;
+        border-radius: 3px;
+      }
+      
+      .topnav a {
+        display: block;
+        color: #f5eeee;
+        text-align: center;
+        padding: 12px 14px;
+        font-size: 16px;
+      }
+      
+      .topnav a:hover {
+        background-color: #F5EBEB;
+        color: black;
+      }
+      
+      .topnav  {
+        padding: 10px 14px;
+        background: #EDE9D5;
+        font-size: 16px;
+      }
+
+.flexbox {
+    display:flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.flexbox2 {
+    display:flex;
+}
+img.myimage {
+    height: 10%;
+    width: 30%;
+}
+img.view{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30%;
+    width: 50%;
+}
+.flexbox article {
+    margin: 20px;
+}
 @media only screen and (max-width: 600px)
-    {a {display:block; padding: 6px}
-    span {display: none;} }
+    {a {display:block; padding: 4px}
+    section {display:block;} 
+    article {display:block; }}
+
+.flexbox2 article {
+    margin: 20px;
+}
+.mybox {
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box1, .box2 {
+    flex:1;
+}
