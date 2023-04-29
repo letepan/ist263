@@ -107,17 +107,7 @@ h5{
 .box1, .box2 {
     flex:1;
 }
-.skip {
-    background-color:#EDE9D5;
-    padding: 5px;
-    position: absolute;
-    text-decoration: none;
-    top: 10px;
-    left: -999px;
- }
- .skip:focus {
-        left:10px;
- }
+
  .flexbox3{
     display:flex;
     flex-wrap: wrap;
