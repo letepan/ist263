@@ -111,7 +111,8 @@ h5{
     background-color:#EDE9D5;
     padding: 5px;
     position: absolute;
-    top: 185px;
+    top: 10px;
+    left: -999px;
  }
  .skip:focus {
         left:10px;
@@ -126,6 +127,3 @@ h5{
     padding:0px;
  }
  
-#main {
-    margin: 20px;
-}
