@@ -7,7 +7,7 @@ body {
     border-radius: 4px;
 }
 h1, h2, h3, h4, h5 {
-    font-size: 300%;
+    font-size: 250%;
     padding-top: 30px;
     padding-left: 20px;
 }
@@ -51,9 +51,7 @@ header h1 {
 .flexbox2 {
     display:flex;
 }
-.flexbox article {
-    margin: 20px;
-}
+
 .flexbox p {
     background-color: #f9b29a;
     border-radius: 4px;
@@ -74,9 +72,6 @@ header h1 {
     section {display:block;} 
 }
 
-.flexbox2 article {
-    margin: 20px;
-}
 .flexbox2 p{
     background-color: #f9b29a;
     border-radius: 4px;
