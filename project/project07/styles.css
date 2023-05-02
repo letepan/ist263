@@ -61,6 +61,7 @@ header h1 {
 
 .flexbox {
     display:flex;  
+    margin-left: 20px;
 }
 .box3 {
     padding: 1px;
@@ -73,31 +74,35 @@ header h1 {
 .box2 {
     background-color: #f9b29a;
     margin-top: 20px;
-    margin-left: 20px;
+ 
     margin-right:20px;
     margin-bottom: 50px;
     padding:20px;
     border-radius: 5px;
 
 }
+.box2 {
+    margin-top: 20px;
+    margin-right:20px;
+    margin-bottom: 20px;
+}
 .box3 {
     background-color: #f9b29a;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right:20px;
-    margin-bottom: 50px;
     padding:20px;
     border-radius: 5px;
-    
+}
+.box3 div {
+    margin-top: 20px;
+    margin-right:20px;
+    margin-bottom: 20px;
 }
 .background div {
     background-color: #f9b29a;
     border-radius: 5px;
     margin-top: 20px;
-    margin-left: 71px;
+    margin-left: 20px;
     margin-right:20px;
-    margin-bottom: 50px;
-    padding: 2px;
+    margin-bottom: 20px;
 }
 .background p {
     margin: 30px;
@@ -133,6 +138,6 @@ header h1 {
  }
 
 .mypic {
-    margin-left:50px;
+    margin-left:40px;
 }
  
