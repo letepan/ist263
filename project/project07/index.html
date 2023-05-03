@@ -31,8 +31,8 @@
       }
       .box1, .box2, .box3 {
         flex:1;
-       
       }
+      
       .mypic {
         display:flex;
         flex-wrap: wrap;
@@ -41,6 +41,8 @@
       * {box-sizing: border-box;}
       .mySlides{
         margin:8px;
+      }
+      img { vertical-align: middle;
       }
       .slideshow-container {
         max-width:700px;
@@ -110,7 +112,7 @@
   }
   function showSlides(n) {
       let i;
-      let slides =document.getElementsByClassName('mySlides');
+      let slides =document.getElementsByClassName("mySlides");
       let dots = document.getElementsByClassName("dot");
       if (n > slides.length) {slideIndex =1}
       if (n < 1) {slideIndex = slides.length}
@@ -122,13 +124,15 @@
       }
       slides[slideIndex-1].style.display = "block";
       dots[slideIndex-1].className += " active";
-  }
+  
     function showNav () {
         document.getElementsByClassName("topnav").style.display ="block";
     }
     function hideNav () {
         document.getElementsByClassName("topnav").style.display = "none" ;
-    }
+
+    } 
+
   </script>
 </head>
 <body>
@@ -138,10 +142,7 @@
       <h1> Travel to Utah! </h1>
     </div>
      <a href="#main" class="skip">Skip to Main Content</a> 
-    
-    
-    
-     <div class="topnav">
+    <div class="topnav">
       <nav>
         <a href="index.html"> Home </a> 
         <a href="page2.html"> Hiking Locations</a> 
@@ -159,8 +160,8 @@
           </div>
 
         <div class="box2">
-    <h3 id="main">Introduction</h3>
-          <p>Have you traveled to the West Coast in the US? Maybe California? But have you traveled to Utah? Maybe not. But you definitely should! I recommend it if you like nature and exploring new places. There are many hiking trails. You should take a buddy or two. If not you can also travel alone but stay safe and don’t be out too late. Let's talk more about Utah! There’s a diverse scenery. There are five National Parks located in Utah.
+    <h3>Introduction</h3>
+          <p id="main">Have you traveled to the West Coast in the US? Maybe California? But have you traveled to Utah? Maybe not. But you definitely should! I recommend it if you like nature and exploring new places. There are many hiking trails. You should take a buddy or two. If not you can also travel alone but stay safe and don’t be out too late. Let's talk more about Utah! There’s a diverse scenery. There are five National Parks located in Utah.
           </p>
           <br>
         </div> 
@@ -187,41 +188,42 @@
     </div>
 
 <!-- slideshow container-->
-    <div class="slideshow-container">
+<div class="slideshow-container">
 
 <!-- width images with number-->
-<div class="mySlides">
+<div class="mySlides fade">
     <div class="numbertext"> 1 / 6</div>
-    <img src="../images1/slide1.jpg" style="width:100%">
+    <img src="../images1/slide1.jpg" alt=" cars on the road " style="width:100%">
 </div>
 
-<div class="mySlides">
+<div class="mySlides fade">
     <div class="numbertext"> 2 / 6</div>
-    <img src="../images1/slide2.jpg" style="width:100%">
+    <img src="../images1/slide2.jpg" alt="pink arches" style="width:100%">
 </div>
 
-<div class="mySlides">
+<div class="mySlides fade">
     <div class="numbertext"> 3 / 6</div>
-    <img src="../images1/slide3.jpg" style="width:100%">
+    <img src="../images1/slide3.jpg" alt="more pink arches" style="width:100%">
 </div>
 
-<div class="mySlides">
+<div class="mySlides fade">
     <div class="numbertext"> 4 / 6</div>
-    <img src="../images1/slide4.jpg" style="width:100%">
+    <img src="../images1/slide4.jpg" alt=" person posing in front of arches" style="width:100%">
 </div>
-<div class="mySlides">
+<div class="mySlides fade">
     <div class="numbertext"> 5 / 6</div>
-    <img src="../images1/slide5.jpg" style="width:100%">
+    <img src="../images1/slide5.jpg" alt="Bryce Canyon Park Trail" style="width:100%">
 </div>
-<div class="mySlides">
+<div class="mySlides fade">
     <div class="numbertext"> 6 / 6</div>
-    <img src="../images1/slide6.jpg" style="width:100%">
+    <img src="../images1/slide6.jpg" alt="Zion view" style="width:100%">
 </div>
 
 <a class="prev" onclick="plusSlides(-1)"> &#10094;</a>
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
 <br>
+
 <div style="text-align:center"> 
     <span class="dot" onclick="currentSlide(1)"></span> 
     <span class="dot" onclick="currentSlide(2)"></span> 
