@@ -8,17 +8,38 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="../images1/favicon.ico">
     <style>
+         .skip { 
+        position: absolute;
+        left: -10000px;
+        top:auto;
+        width:1px;
+        height: 1px; 
+        overflow: hidden;
+        }
+      .skip:focus {
+        position: static;
+        width: auto;
+        height: auto; 
+        }
          img {
         width:100%
-      }
+        }
+        .header2 {
+        font-family: 'Playfair Display', serif;
+        }
+
     </style>
 </head>
 <body>
     <header> 
-    <h1>First Half of Utah Trip</h1>
+        <div class="header2">
+        <a href="#main1" class="skip">Skip to Main Content</a> 
+        <h1>First Half of Utah Trip</h1>
+        </div>
+        
     <div class="topnav"> 
     <nav>
-        <a href="page1.html"> Home </a>
+        <a href="index.html"> Home </a>
         <a href="page2.html"> Hiking Locations</a>
         <a href="page3.html"> Trip Continued </a>
     </nav>
@@ -26,24 +47,28 @@
     </header>
 
     <section> 
-    <h2> Begin the Utah Trip</h2>
-    <p>I suggest you fly into Salt Lake City Airport. To travel around the city, renting a car may be the easiest way. There are trains and buses but those may take too long or have their schedules. Having your car for the duration of the trip will make it 100% easier. </p>
+    <main id="main1">
+        <h2> Begin the Utah Trip</h2>
+        <p>I suggest you fly into Salt Lake City Airport. To travel around the city, renting a car may be the easiest way. There are trains and buses but those may take too long or have their schedules. Having your car for the duration of the trip will make it 100% easier. </p>
     
-    <h3>First Stop: Arches National Park </h3>
-    <p>Once, my friend and I landed at SLC Airport at noon we took a shuttle to the car-renting location. There are different renting companies and people pick up their car rentals. By taking another shuttle we were able to make it to the car and then drove to a small local restaurant for a food break. After this short stop, we drove to Walmart to get some essentials like bottled water, fruits, snacks, and other necessities. Our drive to the hotel was close to 4 hours but it flew by because during the drive we were able to see the beautiful skies and mountains surrounding us. However, when we made it to the hotel we were tired but excited for the following day. </p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d398387.6543834249!2d-109.86582701201284!3d38.73150082760118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80caf61a860daa51%3A0x4f42ea69d128c495!2sArches%20National%20Park!5e0!3m2!1sen!2sus!4v1680477467504!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
-    <p> There are many different trails at this park and you decide to pick which ones you will take on that day. We decided on three different trails and they were all beautiful in their ways!
-    Below are some pictures I took! After the hiking, we went to the city called Moab. There are many restaurants and shops in Moab. We had lunch in the city and we went to different stores around the area. As the day was ending, we went back to the hotel. Prepped for the following day.</p>
+        <h3>First Stop: Arches National Park </h3>
+        <p>Once, my friend and I landed at SLC Airport at noon we took a shuttle to the car-renting location. There are different renting companies and people pick up their car rentals. By taking another shuttle we were able to make it to the car and then drove to a small local restaurant for a food break. After this short stop, we drove to Walmart to get some essentials like bottled water, fruits, snacks, and other necessities. Our drive to the hotel was close to 4 hours but it flew by because during the drive we were able to see the beautiful skies and mountains surrounding us. However, when we made it to the hotel we were tired but excited for the following day. </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d398387.6543834249!2d-109.86582701201284!3d38.73150082760118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80caf61a860daa51%3A0x4f42ea69d128c495!2sArches%20National%20Park!5e0!3m2!1sen!2sus!4v1680477467504!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+        <p> There are many different trails at this park and you decide to pick which ones you will take on that day. We decided on three different trails and they were all beautiful in their ways!
+        Below are some pictures I took! After the hiking, we went to the city called Moab. There are many restaurants and shops in Moab. We had lunch in the city and we went to different stores around the area. As the day was ending, we went back to the hotel. Prepped for the following day.</p>
 
-    <img src="../images1/utah1.jpg" alt="Archesfromparking" style="width:400px;height:500px;"> 
-    <img src="../images1/utah12.jpg" alt="Bigarchandmountains" style="width:400px;height:500px;">
-
+        <img src="../images1/utah1.jpg" alt="Archesfromparking" style="width:400px;height:500px;"> 
+        <img src="../images1/utah12.jpg" alt="Bigarchandmountains" style="width:400px;height:500px;">
+    </main>
+    </section>
+    
+    <section>
     <h4>Canyonlands National Park </h4>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d401184.8144518377!2d-110.18147017860707!3d38.22715812205951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8747e1ee4518a6a9%3A0x15a452a9c502e6aa!2sCanyonlands%20National%20Park!5e0!3m2!1sen!2sus!4v1680477535975!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
     <p> Second Stop: Canyonlands National Park. On the third day of our trip, we woke up early to go to Canyonlands to watch the sunrise. We made it to the park and didn’t see many cars at the parking lot which was awesome. However, there were a couple of people already at the top of the trail waiting for the sunrise. It was a beautiful scene and I took great pictures. After this, we took two more trails. We made sure to pack snacks in our backpacks and water. Later this day, we traveled to the second place we stayed in. It was an outdoor location and it was just before the sunset.Below are some of my images!</p>
     <img src="../images1/utahsunrise.jpg" alt="Canyonlands trail" style="width:400px;height:500px;">
     <img src="../images1/utahrocks.jpg" alt="Canyonlands pink rocks" style="width:400px;height:500px;">
-    
+    </section>
     <hr>
     &copy;2023
 </body>
