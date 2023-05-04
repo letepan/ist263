@@ -82,6 +82,7 @@ header h1 {
     margin-left: 20px;
     margin-right:20px;
     margin-bottom: 20px;
+    padding:10px
 }
 .background p {
     margin: 30px;
@@ -98,6 +99,9 @@ header h1 {
     .ended {flex-direction: column;}
     .vega {flex-direction: column;}
     .runs {flex-direction: column;}
+    .last {flex-direction: column;}
+ 
+    
     }
 .chip {
     background-color: #f9b29a;
@@ -232,6 +236,11 @@ header h1 {
 }
 footer {
     background-color: #afd1e5;
-    padding:30px;
+    padding:10px;
     border-radius: 5px;
+    margin-left:10px;
+    margin-right:10px;
 }
+.last {display:flex;
+justify-content: space-between;}
+.social1 .social2{flex:1;}
