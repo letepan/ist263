@@ -239,15 +239,9 @@ footer {
     margin-left:10px;
     margin-right:10px;
 }
-.last {display:flex;
+
+.last {
+display:flex;
 justify-content: space-between;}
-.social1 .social2{flex:1;}
 
-p.lit {
-    margin-left:auto;
-    margin-right: auto;
-    }
-
-.last .social1 {
-    margin-left: 60px;
-}
+.social1 .social2 {float: inline-start;}
